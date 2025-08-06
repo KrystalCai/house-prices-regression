@@ -1,35 +1,28 @@
-# House Prices Prediction using Regression
+# 🏡 House Prices: Advanced Regression Techniques
 
-This project is a machine learning regression task based on the [Kaggle House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) dataset. The goal is to predict the final sale price of residential homes based on various features.
+A regression project to predict house prices based on various features from the Ames Housing dataset.
 
-## 📂 Project Structure
+## 📂 Dataset
 
-- `house-prices-prediction-using-regression.ipynb`: Jupyter notebook with data preprocessing, model training, evaluation, and submission generation.
-- `README.md`: Project documentation.
+- Source: [Kaggle Competition - House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+- Files used: `train.csv`, `test.csv`
 
-## 🧠 Problem Statement
+## 🧠 Models Used
 
-The objective is to build a predictive model that accurately estimates house sale prices. This is a supervised learning regression problem using real-world housing data.
-
-## ⚙️ Techniques Used
-
-- Exploratory Data Analysis (EDA)
-- Data cleaning and imputation
-- Feature engineering
-- Model training using:
-  - Linear Regression
-  - Ridge/Lasso Regression
-  - Random Forest / XGBoost
-- Hyperparameter tuning
-- Submission file generation for Kaggle
+- Random Forest Regressor (optimized with GridSearchCV)
 
 ## ✅ Results
 
-- Best model: Random Forest with GridSearchCV
-- Public Kaggle Score: 0.13457
+- Best model: Random Forest Regressor with GridSearchCV optimization
+- Public Kaggle Score: 0.17062
 
 ## 🛠️ How to Run
 
-1. Install required Python packages (if running locally):
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn xgboost
+1. Clone the repository or download the notebook.
+2. Open the notebook in [Kaggle Notebook Editor](https://www.kaggle.com/) or your local Jupyter environment.
+3. Follow the steps in the notebook to preprocess the data, train models, and evaluate results.
+
+## 📌 Notes
+
+- Feature engineering and hyperparameter tuning were used to improve model performance.
+- Further improvements could involve trying ensemble methods like XGBoost or LightGBM.
